@@ -9,6 +9,7 @@ const QUICK_QUESTIONS = [
 ];
 
 const BACKEND_URL = import.meta.env.VITE_CHATBOT_URL || "http://localhost:8000";
+console.log("BACKEND_URL =", BACKEND_URL);
 
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
