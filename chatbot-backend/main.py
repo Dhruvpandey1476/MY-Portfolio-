@@ -183,9 +183,6 @@ app.add_middleware(
 )
 
 # ── Routes ─────────────────────────────────────────────────────────────────────
-@app.get("/")
-def root():
-    return {"status": "ok", "message": "Dhruv's portfolio chatbot is running 🚀"}
 
 @app.get("/health")
 def health():
