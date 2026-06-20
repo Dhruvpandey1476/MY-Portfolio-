@@ -233,5 +233,5 @@ async def chat(req: ChatRequest):
             status_code=500, 
             detail=f"Internal Error: {str(e)}"
         )
-        
-app.mount("/", StaticFiles(directory="dist", html=True), name="frontend")        
+if os.path.exists("dist"):
+    app.mount("/", StaticFiles(directory="dist", html=True), name="frontend")               
