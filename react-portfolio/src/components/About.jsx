@@ -13,7 +13,7 @@ export default function About() {
             <div className="about-text">
               <p>
                 I&apos;m a <span className="about-highlight">B.Tech CSE student at ABES Institute of Technology</span> (2024–2028),
-                currently interning as Gen AI Developer at ve-lyra labs. I build production-grade AI systems not just Jupyter notebooks.
+                currently interning as a Gen AI Developer at ve-lyra labs. I build production-grade AI systems not just Jupyter notebooks.
               </p>
               <p>
                 My focus is on <strong>agentic AI architectures</strong>, <strong>multimodal deep learning</strong>, and{" "}
