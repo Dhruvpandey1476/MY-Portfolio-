@@ -10,7 +10,6 @@ Run:
 import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 from pydantic import BaseModel
 from typing import Literal
@@ -230,5 +229,4 @@ async def chat(req: ChatRequest):
             status_code=500, 
             detail=f"Internal Error: {str(e)}"
         )
-if os.path.exists("dist"):
-    app.mount("/", StaticFiles(directory="dist", html=True), name="frontend")               
+               
