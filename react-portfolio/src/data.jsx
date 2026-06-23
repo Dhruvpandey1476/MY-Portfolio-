@@ -12,7 +12,7 @@ export const LINKS = {
 };
 
 export const STATS = [
-  { count: 25, label: "Github Repo" },
+  { count: 35, label: "Github Repo" },
   { count: 91, label: "% Model Accuracy" },
   { count: 84, label: "% Token Cost ↓" },
   { count: 2, label: "Internships" },
