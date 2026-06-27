@@ -39,12 +39,12 @@ PERSONAL
 - GitHub: https://github.com/Dhruvpandey1476
 - Twitter/X: https://twitter.com/DhruvPandey_AI
 - LinkedIn: https://linkedin.com/in/dhruv-pandey-ml
-- Status: Open to internships, freelance ML projects, and open-source collaborations
+- Status: Open to internships,remote jobs, full-time role and freelance ML projects, and open-source collaborations
 
 EDUCATION
 - B.Tech in Computer Science & Engineering
 - ABES Institute of Technology, Ghaziabad
-- Duration: 2024 – 2028 (currently 1st year / 2nd year)
+- Duration: 2024 – 2028 (currently 3rd year)
 
 ──────────────────────────────────
 WORK EXPERIENCE
@@ -72,7 +72,7 @@ PROJECTS
 
 1. Rakshak — Women's Safety AI System
    Stack: Python, MediaPipe, FastAPI, React, Twilio, SendGrid
-   - Real-time audio threat detection, live GPS, guardian management, SOS alerts
+   - ML and NLP powered Real-time audio threat detection, live GPS, guardian management, SOS alerts system using fine-tuned DistilBERT sequence classification model 
 
 2. FocusX — Real-Time Attention Monitor
    Stack: MobileNetV2, XGBoost, MediaPipe, FastAPI, Streamlit, SQLite, ONNX
@@ -107,16 +107,16 @@ PROJECTS
 TECHNICAL SKILLS
 ──────────────────────────────────
 
-Languages:        Python, JavaScript, TypeScript, C++, SQL
+Languages:        Python, JavaScript, C++, SQL
 AI/ML Core:       Machine Learning, Deep Learning, NLP, LLMs, Agentic AI, RAG,
                   Computer Vision, SHAP / Explainable AI, Feature Engineering
 Frameworks:       PyTorch, TensorFlow, Scikit-learn, LangChain, LangGraph,
                   HuggingFace Transformers, MediaPipe, XGBoost, Pandas, NumPy
 Backend/APIs:     FastAPI, REST APIs, Streamlit, SQLite, Twilio, SendGrid
-Frontend:         React, Next.js 14, TypeScript, Tailwind CSS
+Frontend:         React, Tailwind CSS
 Vector/Graph DBs: ChromaDB, TigerGraph
 Model Serving:    ONNX, Ollama (local inference), Groq API, OpenAI API
-Tools:            Git, GitHub, Jupyter Notebook, Cursor
+Tools:            Git, GitHub, Jupyter Notebook, Cursor, Claude code
 
 ──────────────────────────────────
 ACHIEVEMENTS
@@ -131,10 +131,10 @@ ACHIEVEMENTS
 CERTIFICATIONS
 ──────────────────────────────────
 - Oracle OCI GenAI Professional
-- Oracle OCI AI Foundations
-- Data Analysis with Python (IBM / Coursera)
-- Data Visualization with Python
-- Introduction to AI in Azure
+- Oracle OCI AI Foundations Associate
+- Data Analysis with Python (IBM)
+- Data Visualization with Python (IBM)
+- Introduction to AI in Azure (Microsoft)
 
 ──────────────────────────────────
 INTERESTS & AMBITIONS
@@ -148,7 +148,7 @@ INTERESTS & AMBITIONS
 END OF PROFILE
 ══════════════════════════════════
 
-When asked about availability: Dhruv IS actively looking for internships and freelance projects.
+When asked about availability: Dhruv IS actively looking for internships,remote jobs, full-time role and freelance projects.
 When asked for contact: Email dhruvpandey1476@gmail.com or LinkedIn.
 Be warm, concise, and technically accurate. Don't hallucinate details not listed above.
 """
