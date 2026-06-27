@@ -67,9 +67,9 @@ export const EXPERIENCE = [
     badge: "Full-time Internship",
     color: "cyan",
     bullets: [
-      <>Built <strong>Rakshak</strong> — women's safety platform with real-time audio threat detection, GPS sharing, and SOS alerts via Twilio/SendGrid on a React + FastAPI stack</>,
-      <>Developed <strong>FocusX</strong> — attention monitoring system using MediaPipe Face Mesh → MobileNetV2 CNN (eye-state, ~91% accuracy) → XGBoost for attention scoring; deployed with FastAPI/SQLite/Streamlit</>,
-      <>Built <strong>StudyMind</strong> — LangChain chatbot on DeepSeek OpenRouter with per-session personalised context for FocusX users</>,
+      <>Built <strong>Rakshak</strong> — ML and NLP powered women's safety platform with real-time audio threat detection, GPS sharing, and SOS alerts via Twilio/SendGrid on a React + FastAPI stack using Fine-tuned DistilBERT sequence classification model </>,
+      <>Developed <strong>FocusX</strong> — Built the application layer on top of a pre-trained TensorFlow.js facial-landmark detection model for a real-time attentionmonitoring use case, integrated model output into a custom attention-scoring pipeline with session tracking </>,
+      <>Built <strong>StudyMind</strong> — LangChain chatbot on DeepSeek OpenRouter with per-session personalised context for FocusX users using Guardrails </>,
     ],
   },
   {
@@ -90,7 +90,7 @@ export const PROJECTS = [
   {
     icon: "🛡️",
     name: "Rakshak — Women's Safety AI",
-    desc: "End-to-end safety platform with real-time audio threat detection using ML, live GPS tracking, one-tap SOS (SMS/call/email via Twilio/SendGrid), and guardian contact management.",
+    desc: "End-to-end ML and NLP powered safety platform with real-time audio threat detection using ML, live GPS tracking, one-tap SOS (SMS/call/email via Twilio/SendGrid), and guardian contact management using Fine-tuned DistilBERT sequence classification model.",
     stack: [{ t: "Python", h: true }, { t: "MediaPipe", h: true }, { t: "React" }, { t: "FastAPI" }, { t: "Twilio" }, { t: "SendGrid" }],
     metric: "🟢 Real-time inference",
     type: "Safety AI",
@@ -98,7 +98,7 @@ export const PROJECTS = [
   },
   {
     icon: "👁️",
-    name: "FocusX — Real-Time Attention Monitor",
+    name: "Focus Mate — Real-Time Attention Monitor",
     desc: "Two-model pipeline: MediaPipe Face Mesh extracts landmarks → MobileNetV2 CNN classifies eye-state (~91% accuracy) → XGBoost scores attention level. Deployed with FastAPI, SQLite session store, and Streamlit dashboard.",
     stack: [{ t: "MobileNetV2", h: true }, { t: "XGBoost", h: true }, { t: "MediaPipe" }, { t: "FastAPI" }, { t: "Streamlit" }, { t: "SQLite" }],
     metric: "📈 91% accuracy",
@@ -107,7 +107,7 @@ export const PROJECTS = [
   },
   {
     icon: "💳",
-    name: "CredSight — Agentic Credit Scoring",
+    name: "CredSight — ML & Agentic Credit Scoring",
     desc: "Hybrid scoring engine: XGBoost (60% weight, SHAP explainability) + 4-agent LangGraph pipeline via Groq Llama (40% weight). Produces per-factor reasoning, bulk CSV processing, and single detailed PDF reports. Built for India's credit-invisible borrowers.",
     stack: [{ t: "LangGraph", h: true }, { t: "XGBoost", h: true }, { t: "SHAP" }, { t: "Groq Llama" }, { t: "FastAPI" }, { t: "React" }, { t: "Next.js" }],
     metric: "🏆 Top 15 — JSS InOut Hacks 2026",
@@ -167,9 +167,9 @@ export const ACHIEVEMENTS = [
 export const CERTS = [
   "Oracle OCI GenAI Professional",
   "Oracle OCI AI Foundations",
-  "Data Analysis with Python",
-  "Data Visualization with Python",
-  "Introduction to AI in Azure",
+  "IBM Data Analysis with Python",
+  "IBM Data Visualization with Python",
+  "Microsoft Introduction to AI in Azure",
 ];
 
 export const CONTACT_LINKS = [
