@@ -64,7 +64,7 @@ export default function Contact() {
         <div className="contact-grid">
           <div className="contact-info reveal">
             <p className="contact-intro">
-              Open to <strong>AI/ML internships</strong>, <strong>freelance ML projects</strong>, and{" "}
+              Open to <strong>AI/ML internships</strong>, <strong>full-time role</strong>, <strong>remote jobs</strong>,<strong>freelance AI/ML projects</strong>, and{" "}
               <strong>open-source collaborations</strong>. Whether it&apos;s building an agentic system, a data pipeline,
               or a full-stack AI product — let&apos;s connect.
             </p>
