@@ -6,7 +6,7 @@ const PHRASES = [
   "Data Scientist",
   "Agentic AI Builder",
   "LangGraph Architect",
-  "NLP Dev",
+  "NLP Engineer",
   "RAG Systems Engineer",
 ];
 
@@ -162,7 +162,7 @@ export default function Hero() {
             <span id="typed-text">{typed}</span><span className="typed-cursor">|</span>
           </div>
           <p className="hero-bio">
-            <strong>AI/ML Engineer &amp; Data Scientist</strong> building production-ready agentic systems, RAG pipelines, and deep learning models. Specialising in <strong>LangGraph multi-agent architectures</strong>, computer vision, and GenAI applications that ship — not just prototypes.
+            <strong>AI/ML Engineer &amp; Data Scientist</strong> building production-ready agentic systems, RAG pipelines, and deep learning models. Specialising in <strong>LangGraph multi-agent architectures</strong>, NLP, and GenAI applications that ship — not just prototypes.
           </p>
           <div className="hero-actions">
             <a href="#projects" className="btn-primary">
