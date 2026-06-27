@@ -68,7 +68,7 @@ export const EXPERIENCE = [
     color: "cyan",
     bullets: [
       <>Built <strong>Rakshak</strong> — ML and NLP powered women's safety platform with real-time audio threat detection, GPS sharing, and SOS alerts via Twilio/SendGrid on a React + FastAPI stack using Fine-tuned DistilBERT sequence classification model </>,
-      <>Developed <strong>FocusX</strong> — Built the application layer on top of a pre-trained TensorFlow.js facial-landmark detection model for a real-time attentionmonitoring use case, integrated model output into a custom attention-scoring pipeline with session tracking </>,
+      <>Developed <strong>FocusX</strong> — Built the application layer on top of a pre-trained TensorFlow.js facial-landmark detection model for a real-time attention monitoring use case, integrated model output into a custom attention-scoring pipeline with session tracking </>,
       <>Built <strong>StudyMind</strong> — LangChain chatbot on DeepSeek OpenRouter with per-session personalised context for FocusX users using Guardrails </>,
     ],
   },
@@ -90,7 +90,7 @@ export const PROJECTS = [
   {
     icon: "🛡️",
     name: "Rakshak — Women's Safety AI",
-    desc: "End-to-end ML and NLP powered safety platform with real-time audio threat detection using ML, live GPS tracking, one-tap SOS (SMS/call/email via Twilio/SendGrid), and guardian contact management using Fine-tuned DistilBERT sequence classification model.",
+    desc: "End-to-end ML and NLP powered safety platform with real-time audio threat detection using ML and fine-tuned DistilBERT sequence classification model, live GPS tracking, one-tap SOS (SMS/call/email via Twilio/SendGrid), and guardian contact management.",
     stack: [{ t: "Python", h: true }, { t: "MediaPipe", h: true }, { t: "React" }, { t: "FastAPI" }, { t: "Twilio" }, { t: "SendGrid" }],
     metric: "🟢 Real-time inference",
     type: "Safety AI",
